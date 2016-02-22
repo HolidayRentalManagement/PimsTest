@@ -1,0 +1,584 @@
+
+/*
+a:link, a:visited  {text-decoration: none; background-color: #0000ff; color: #ffffff;}
+*/
+/*
+a:link, a:visited  {
+	text-decoration: none;
+	color:				#ff8308;
+}
+a:hover { 
+	text-decoration: 	underline; 
+	color:				#000000;
+	color: 				#1d96b8;
+}
+*/
+body,td   
+{ 
+	font-family: 		Geneva, Arial, Verdana, sans-serif; 
+	font-size: 			9pt;  
+	color:				#222222;
+	line-height: 		180%; 
+	margin-bottom: 		0px; 
+	margin-top: 		0px;
+	margin-left: 		6px;
+}
+
+body {
+	background-image:	url(./a_bannerbg.png);
+	background-repeat: 	repeat-x;
+}
+
+img {
+	border:none;
+	margin: 0;
+	padding: 0;	
+}
+/* Heading table */
+.centerbody  
+{ 
+	background : url('./a_bannertext_h.png') top left no-repeat;
+	padding:	0px;
+}
+/* Navigation table */
+.navtable  
+{ 
+	background-color:	#F9F9F9;
+	padding:	0px;
+}
+
+/* Main heading */
+h1 {
+
+	font-weight: bold;
+	margin-top: 1px;
+	
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #1d96b8;
+	margin-bottom: 10px;
+	line-height: 30px;
+	/* padding: 5px 0; */
+
+}
+
+/* 2nd level sub heading */
+h2 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 25px;
+	color: #ff8308;
+	margin: 20px 0 15px 0;
+}
+
+/* Sub Items in main body of text */
+h3  {
+	font: 			11pt Geneva, Arial, Verdana, Helvetica, sans-serif;
+	font-weight: 	bold;
+	margin-bottom: 	0px;
+
+}
+/*  Heading4 is used as a sub heading in forms */
+h4  {
+	font-family: 		Geneva, Arial, Verdana, sans-serif; 
+	font-size: 		8pt;
+	color: 			#333333;
+	margin-bottom: 	5px;
+	margin-top: 	5px;
+	line-height:	100%;
+}
+
+/*  Heading5 is used whenever we just need a bold, strong word in a table cell or similar */
+h5  {
+	font: 8pt Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 2px 0px 3px 0px;
+}
+
+p {
+	margin-bottom:2px;
+	margin-top:2px;	
+}
+
+p.leftt {
+	margin-right: 10px;
+}
+
+.pimstext {
+	color:		#09C;
+	margin:		5px 25px 15px 25px;
+}
+p.pimstext {
+	margin-bottom:	15px;
+	line-height: 135%;
+}
+
+/****************************************************************************************/
+/* Tables                                                                               */
+/****************************************************************************************/
+
+
+table th
+{
+	font: 0.7em Arial, Helvetica, sans-serif; 
+	color:#000000; 
+	font-weight: 600;
+	text-align: left;
+	line-height: 150%; 
+	margin-bottom: 1px;
+
+}
+
+tr
+{
+    vertical-align: top;
+}
+
+table.proptable
+{
+	border: 		1px solid #1d96b8;  
+	border-width: 	1px 1px 1px 1px ;
+}
+.proptable
+{
+	line-height: 130%;
+	/*padding-right: 10px;*/
+}
+
+table.paypaltable {
+	background : url('../images/paypalCC.jpg') top left no-repeat;
+}
+.picCaption {
+	font-family: 	Arial, Helvetica, Verdana, sans-serif;
+	font-size: 		7pt;
+	text-align: 	center;
+	line-height:	120%;
+	padding: 		2px 0px 2px 0px;
+}
+.picTitle {
+	font-family: 	Arial, Helvetica, Verdana, sans-serif;
+	font-size: 		7pt;
+	font-weight: 	bold;
+	text-align: 	center;
+	line-height:	120%;
+	padding: 		2px 0px 2px 0px;
+}
+
+.quote {
+	font-family: 	Georgia, Arial, Helvetica, Verdana, sans-serif;
+	font-size: 		8pt;
+	text-align: 	left;
+	line-height:	140%;
+
+}
+
+}
+td.quote  {
+
+	color:			#F9F9F9;
+	background-color:	#222222;
+	color:			#333333;
+	background-color:	#FFFFFF;
+}
+
+table.newsblock {
+	background : 	url('../images/newspaper.jpg') no-repeat top left;
+	background : 	url('../images/notepaper.png') no-repeat top left;
+	
+	padding-left:	40px; 
+	padding-right:	0px; 
+	padding-top:	3px; 
+	padding-bottom:	13px 
+}
+p.newsblock {
+	font-family:	Georgia, "Times New Roman", Times, serif;
+	font-size: 		8pt;
+	text-align: 	left;
+	line-height:	125%;
+	color: #ff8308;
+}
+/****************************************/
+/* Demo Panels                          */
+/****************************************/
+#demoPanel {
+	display: 		block;
+	width: 			400px;
+	border: 		1px solid #CCC;
+	margin: 		10px 10px 10px 10px;
+	padding: 		5px 15px 12px 15px;
+	text-align: 	left;
+	
+	/*background-color: #FFF;  */		
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#EEEEEE'); 
+	background: -webkit-gradient(linear, left top, left bottom, from(#FAFFF5), to(#ECFFDA)); 
+	background: -moz-linear-gradient(top,  #FAFFF5,  #ECFFDA);
+	
+	border-radius: 			10px;
+	-webkit-border-radius: 	10px;
+	-moz-border-radius: 	10px;
+	
+}
+#demoPanel h2 {
+	margin:			2px 10px 5px 0px;
+	color: 			#ff8308;
+}
+#demoPanel h3 {
+	margin:			2px 10px 5px 0px;
+	color: 			#ff8308;
+	font-style:		italic;
+}
+
+#goDemo a:link{
+	font-size: 				15px; 
+	font-weight:			bold; 
+	line-height: 			1; 
+	text-shadow: 			0 -1px 1px rgba(0,0,0,0.25); 
+	
+	display: 				inline-block; 
+	padding: 				5px 10px 5px 10px; 
+	/*color: 					#ffffff;*/ 
+	text-decoration: 		none;
+	
+	-moz-border-radius: 	5px; 
+	-webkit-border-radius: 	5px;
+	border-radius: 			5px;
+	/*-moz-box-shadow: 		0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 	0 1px 3px rgba(0,0,0,0.6);*/
+	
+	-moz-box-shadow: 		2px 2px 3px 0px #777;
+	-webkit-box-shadow: 	2px 2px 3px 0px #777;
+	box-shadow: 			2px 2px 3px 0px #777;
+	
+	text-shadow: 			0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 			1px solid rgba(0,0,0,0.25);
+	position: 				relative;
+	cursor: 				pointer;
+	
+	background-color: 		#91bd09; 
+	filter: 				progid:DXImageTransform.Microsoft.gradient(startColorstr='#91bd09', endColorstr='#91bd09');
+/*	
+	
+	background: 			-webkit-gradient(linear, left top, left bottom, from(#FAFFF5), to(#91bd09)); 
+	background: 			-moz-linear-gradient(top,  #FAFFF5,  #91bd09);
+*/	
+	border: 				1px solid #749a02;
+	border-width: 			1px 1px 1px 1px;
+	
+	width:					350px;
+}
+
+#godemo  {
+	background-color: 		#91bd09;
+	color: 					#ffffff;
+}
+
+#godemo a:visited {
+	color: 					#eeeeee;
+}
+#goDemo a:hover {
+	background-color: 		#91bd09; /* Lighter green */
+	background-color: 		#749a02; /* darker green */
+	filter: 				progid:DXImageTransform.Microsoft.gradient(startColorstr='#749a02', endColorstr='#749a02');	
+/*	
+	filter: 				progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFFF5', endColorstr='#749a02');	
+	background: 			-webkit-gradient(linear, left top, left bottom, from(#FAFFF5), to(#749a02)); 
+	background: 			-moz-linear-gradient(top,  #FAFFF5,  #749a02);
+*/	
+}
+	
+.goDemoText {color: 					#ffffff;}
+
+
+/* Fancy demo button */
+.demoBbutton, .demoBbutton:visited {
+	font-size: 				13px; 
+	font-weight:			bold; 
+	line-height: 			1; 
+	text-shadow: 			0 -1px 1px rgba(0,0,0,0.25); 
+	background-color: 		#333;
+	
+	display: 				inline-block; 
+	padding: 				5px 10px 5px 10px; 
+	color: 					#fff; 
+	text-decoration: 		none;
+	-moz-border-radius: 	5px; 
+	-webkit-border-radius: 	5px;
+	border-radius: 			5px;
+	/*-moz-box-shadow: 		0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 	0 1px 3px rgba(0,0,0,0.6);*/
+	
+	-moz-box-shadow: 		2px 2px 3px 0px #777;
+	-webkit-box-shadow: 	2px 2px 3px 0px #777;
+	box-shadow: 			2px 2px 3px 0px #777;
+	
+	text-shadow: 			0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 			1px solid rgba(0,0,0,0.25);
+	position: 				relative;
+	cursor: 				pointer;
+	
+	background-color: 		#91bd09; 
+	border: 				1px solid #749a02;
+	border-width: 			1px 1px 1px 1px;
+	
+	width:					250px;
+	
+}
+/* 
+.demoBbutton:hover							{ background-color: #111; color: #fff; }
+.demoBbutton:active							{ top: 1px; }
+
+*/
+.demoBbutton:hover	{ 
+	background-color: 		#749a02; 
+	border: 				1px solid #749a02;
+	border-width: 			1px 1px 1px 1px;
+}
+
+
+/********************************/
+/* Front page Advertising panel */
+/********************************/
+table.panel {
+	background-color:	#E6E6E6;
+	background-color:	#F9F9F9;
+	margin: 			0px 0px 5px 0px;
+}
+.panelbody td {
+	font-size: 		9pt;
+	font-family: 	Arial;
+	line-height: 	150%;
+}
+
+.panelbody h3 {
+	color: 			#ff8308;
+	margin-bottom: 	5px;
+	margin-top: 	5px;
+	line-height:	100%;
+	text-shadow:	#fff 2px 2px 1px;  /* The 3 values are X offsetr, Y offset, Blur */
+}
+
+.panelbody h4 {
+	font-family: 	Verdana; 
+	font-size: 		7pt;
+	color: 			#333333;
+	margin-bottom: 	5px;
+	margin-top: 	5px;
+	line-height:	100%;
+}
+
+td.tl {background : url(../loginpanel/tl.gif) }
+td.tc {background : url(../loginpanel/th.gif) top left repeat-x;}
+td.tr {background : url(../loginpanel/tr.gif) }
+
+td.lv {background : url(../loginpanel/lv.gif) top left repeat-y;}
+td.rv {background : url(../loginpanel/rv.gif) top left repeat-y;}
+
+td.bl {background : url(../loginpanel/bl.gif) }
+td.bc {background : url(../loginpanel/bh.gif) top left repeat-x;}
+td.br {background : url(../loginpanel/br.gif) }
+
+td.picside {background : url(../images/picside.jpg) top left repeat-y;}
+
+/********************************************/
+/* TOP NAVIGATION                           */
+/********************************************/
+.navigation {
+	font-family: 		Geneva, Arial, Verdana, sans-serif; 
+	font-size:10pt; 
+	font-weight:900;
+		
+
+    text-align:right;
+    border-bottom:1px solid #787878;
+    /*border-top:1px solid #787878;
+    padding-top:2px;
+    padding-bottom:2px;*/
+    margin-bottom: 		5px;
+	margin-top: 		0px;
+	background-color:	#09C;
+	background-color: 	#1d96b8;
+	
+}
+
+.navigation ul {
+    list-style-type:none;
+    margin:0px;
+    padding:2px;
+}
+
+.navigation li a {
+    display:inline;	
+	height:24px; 
+	line-height:24px; 
+	padding: 6px 15px 7px 15px;
+}
+
+.navigation li a:link {
+    text-decoration:	none;
+    color:				#AA0044;
+	color: 				#ff8308; /* orange */
+	color:				#fff;
+}
+.navigation li a:visited {
+    text-decoration:none;
+    color:#AA0044;
+	color: 				#ff8308; /* orange */
+	color:				#fff;
+}
+.navigation li a:hover {
+    background-color:#AA0044;
+	background-color:	#fff;
+    color:#ff8308;
+}
+
+.navigation li#activelink a {
+    background-color:#0000AA;
+}
+/********************************************/
+/* SIDE NAVIGATION                           */
+/********************************************/
+li
+{
+    list-style: none;
+    display: inline;
+}
+
+#navcontainer { 
+	text-align: left;
+}
+
+#navcontainer ul
+{
+	margin-left: 	0px;
+	padding-left: 	10px;
+	padding-left: 	0px;
+	padding-top:	8px;
+	padding-bottom:	0px;
+	font-family: Arial, Verdana; font-size: 9pt;
+}
+
+#navcontainer a
+{
+	display: 			block; 
+	text-align: 		left;
+	line-height:		120%;
+	padding:			5px 0px 5px 0px;
+	width: 				230px;
+	color: 				#333333;
+	border: 			1px solid #E4E4E4;  
+	border-width: 		0px 0px 1px 0px ;
+}
+
+#navcontainer a:link, #navlist a:visited
+{
+	text-decoration: none;
+}
+
+#navcontainer a:hover
+{
+	background-color: #999999;
+	color: #ffffff;
+}
+#navlist {
+	margin-top:		0px;
+	margin-bottom:	0px;
+}
+#navlist ul {
+	list-style-type: square;
+	margin-left: 15px;
+}
+#navlist a.selected {
+    text-decoration:	none;
+    background-color: 	#EEEEEE;
+	color: 				#333333;
+	border: 			1px solid #555555; 
+	border-width: 		1px 1px 1px 1px ;
+}
+
+/********************************************/
+/* Miscellaneous                            */
+/********************************************/
+p.instructions {
+	margin-bottom:2px;
+	margin-top:2px;
+	line-height: 120%;	
+}
+
+p.err {
+	font-family:	Verdana, sans-serif; 
+	font-size:		7pt;
+	line-height: 	120%;
+	margin:			10px 0px 10px 2px;
+	padding:		10px 0px 10px 6px;
+	color: 			#FFFFFF;
+	background-color: 	#DD0000;
+}
+
+.horizontal_dotted_line
+{
+	border-bottom: 3px dotted #1d96b8;
+	width: 200px;
+} 
+
+.footnote {
+	font-family: 	Verdana; 
+	font-size: 		7pt;
+	line-height:	100%;
+}
+.PictureLeft {
+	margin:	10px 10px 10px 0px;
+}
+
+.BulletList { 
+	
+	margin-top: 10px;	
+	margin-left: 5px;
+	padding-left: 0px;
+
+	font-family: Arial, Verdana; font-size: 9pt;
+	
+}
+.Bulletlist p {
+	margin-bottom: 20px;
+}
+.BulletList ul
+{
+	
+	margin-top: 0px;	
+	margin-left: 15px;
+	padding-left: 0px;
+	list-style-type: square;
+
+	font-family: Arial, Verdana; font-size: 9pt;
+	
+}
+
+.BulletList li
+{
+	margin-bottom: 12px;
+	line-height: 160%;
+}
+
+.NumList { }
+
+.NumList ol
+{
+	margin-top: 0;	
+	list-style-type: decimal;
+	font-family: Verdana; font-size: 8pt;
+}
+
+.NumList li
+{
+	margin-bottom: 5px;
+	margin-left: -15px;  /* sets the position for the numbering */
+	padding-left: 1px;   /* sets the offset point from default for text */
+	line-height: 150%;
+}
+
+.imageR
+{
+	margin: 10px 0px 5px 10px;	
+}
